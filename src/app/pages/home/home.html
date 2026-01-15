@@ -1,0 +1,119 @@
+<!-- <main class="mt-14 justify-center">
+  <h1 class="text-[#E5E5E5] text-4xl px-20">Welcome</h1>
+
+  <section class="px-8 py-10">
+    <div class="flex flex-col lg:flex-row gap-8">
+ <div class="flex-1">
+        <swiper-container
+          class="mySwiper w-full h-[400px] rounded-2xl overflow-hidden"
+          [slidesPerView]="1"
+          [spaceBetween]="spaceBetween"
+          [loop]="true"
+          [pagination]="{ dynamicBullets: true }"
+          (swiperprogress)="onProgress($any($event))"
+          (swiperslidechange)="onSlideChange()"
+        >
+          @for (dest of destinations; track dest.name) {
+          <swiper-slide
+            class="flex justify-center items-center text-center bg-[#444]"
+          >
+            <img
+              [src]="dest.image"
+              [alt]="dest.name"
+              class="block w-full h-full object-cover"
+            />
+          </swiper-slide>
+          }
+        </swiper-container>
+      </div> 
+
+      <div class="bg-red-900 p-20">
+        <img src="utilities/photographer.png" alt="" width="300" height="300" />
+      </div>
+
+      <div class="w-full lg:w-80 bg-[#252529] p-6 rounded-2xl text-white">
+        <h5 class="text-lg font-semibold mb-3">SKILLS</h5>
+        <ul class="space-y-1 text-sm text-gray-300">
+          <li>Videography</li>
+          <li>Adobe Premiere Pro</li>
+          <li>Color Grading</li>
+        </ul>
+
+        <h5 class="text-lg font-semibold mt-6 mb-3">TOOLS</h5>
+        <ul class="space-y-1 text-sm text-gray-300">
+          <li>Premiere Pro</li>
+          <li>Photoshop</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main> -->
+
+<main class="flex-1 flex flex-col items-center px-8 mt-14">
+  <h1 class="text-[#E5E5E5] text-4xl mb-10">Welcome</h1>
+
+  <section
+    class="w-full max-w-6xl flex flex-col lg:flex-row gap-8 justify-center"
+  >
+    <!-- LEFT: Swiper / Image Column -->
+    <div class="flex-1 flex flex-col gap-8">
+      <!-- Swiper -->
+      <div class="w-full max-w-xl">
+        <swiper-container
+          class="w-full rounded-2xl overflow-hidden"
+          [slidesPerView]="1"
+          [loop]="true"
+          [pagination]="true"
+          pagination-clickable="true"
+          autoplay-delay="3000"
+          autoplay-disable-on-interaction="false"
+          grab-cursor="true"
+          simulate-touch="true"
+          effect="fade"
+          fade-effect-cross-fade="true"
+          speed="800"
+        >
+          <swiper-slide>
+            <img src="utilities/photo-1.jpg" />
+          </swiper-slide>
+
+          <swiper-slide>
+            <img src="utilities/photo-2.jpg" />
+          </swiper-slide>
+
+          <swiper-slide>
+            <img src="utilities/photo-3.jpg" />
+          </swiper-slide>
+
+          <swiper-slide>
+            <img src="utilities/photo-4.jpg" />
+          </swiper-slide>
+
+          <swiper-slide>
+            <img src="utilities/photo-5.jpg" />
+          </swiper-slide>
+
+          <swiper-slide>
+            <img src="utilities/photo-6.jpg" />
+          </swiper-slide>
+        </swiper-container>
+      </div>
+    </div>
+
+    <!-- RIGHT: Skills & Tools -->
+    <div class="w-full lg:w-80 bg-[#252529] p-6 rounded-2xl text-white">
+      <h5 class="text-lg font-semibold mb-3">SKILLS</h5>
+      <ul class="space-y-1 text-sm text-gray-300">
+        <li>Videography</li>
+        <li>Adobe Premiere Pro</li>
+        <li>Color Grading</li>
+      </ul>
+
+      <h5 class="text-lg font-semibold mt-6 mb-3">TOOLS</h5>
+      <ul class="space-y-1 text-sm text-gray-300">
+        <li>Premiere Pro</li>
+        <li>Photoshop</li>
+      </ul>
+    </div>
+  </section>
+</main>

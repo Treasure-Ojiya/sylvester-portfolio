@@ -1,0 +1,8 @@
+Background (Dark UI)	#1A1A1D	Main canvas / app background
+Panel Background	#252529	Slightly lighter dark
+Text Primary	#E5E5E5	Titles / high-contrast text
+Text Secondary	#A0A0A8	Labels / descriptions
+Accent Highlight	#007AFF	Button highlights (similar to Adobe app blues)
+Light Border/Divider	#3A3A3D	Separators
+adobe purple light   #B9A0D2
+adobe pueple dark    #B89FD5

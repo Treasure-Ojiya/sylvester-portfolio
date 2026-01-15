@@ -1,0 +1,44 @@
+<main>
+  <nav class="p-4">
+    <!-- <ul class="flex space-x-4">
+      <li><a routerLink="/" class="hover:underline">Home</a></li>
+      <li><a routerLink="/about" class="hover:underline">About</a></li>
+      <li><a routerLink="/projects" class="hover:underline">Projects</a></li>
+      <li><a routerLink="/contact" class="hover:underline">Contact</a></li>
+    </ul> -->
+    <div class="flex flex-col items-center ps-9">
+      <!-- <input
+      type="image"
+      class="h-20 w-20 rounded-full mx-auto border-4 border-[#E5E5E5]"
+      src="utilities/photographer.png"
+      alt="Profile Image"
+    /> -->
+      <img
+        src="utilities/photographer.png"
+        alt=""
+        width="150"
+        height="150"
+        class="mb-2 rounded-full mx-auto border-4 border-[#E5E5E5]"
+      />
+      <p class="text-[#A0A0A8] text-2xl">Sylvester</p>
+    </div>
+
+    <div class="mt-10 ps-8">
+      <a
+        routerLink="/about"
+        routerLinkActive="bg-gray-800"
+        class="text-[#A0A0A8] text-medium border-2 border-[#E5E5E5] rounded-full px-2 py-1 hover:bg-[#252529] block text-center mt-4 cursor-pointer"
+      >
+        About</a
+      >
+
+      <a
+        routerLink="/contact"
+        routerLinkActive="bg-gray-800"
+        class="text-[#A0A0A8] text-medium border-2 border-[#E5E5E5] rounded-full px-2 py-1 hover:bg-[#252529] block text-center mt-4 cursor-pointer"
+      >
+        Contact</a
+      >
+    </div>
+  </nav>
+</main>

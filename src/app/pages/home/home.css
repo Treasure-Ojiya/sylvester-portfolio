@@ -1,0 +1,25 @@
+swiper-container {
+  width: 100%;
+  height: 20rem; /* THIS controls everything */
+  margin-bottom: 30px;
+  display: block; /* important for custom elements */
+}
+
+swiper-slide:hover {
+  transform: scale(1.02);
+}
+
+swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  pointer-events: none;
+  user-select: none;
+}
