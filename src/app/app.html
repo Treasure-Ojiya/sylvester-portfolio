@@ -1,11 +1,14 @@
 <!-- <app-home></app-home> -->
 <app-top-banner></app-top-banner>
 
-<div class="flex min-h-screen">
-  <app-nav class="shrink-0" />
+<!-- <div class="flex min-h-screen"> -->
+<div class="grid grid-cols-[250px_1fr] min-h-screen">
+  <app-nav class="shrink-0"></app-nav>
 
   <!-- Main content takes remaining space -->
-  <div class="flex-1 flex justify-center items-start">
+
+  <!-- <div class="flex-1 overflow-auto"> -->
+  <div class="min-h-screen">
     <router-outlet />
   </div>
 </div>
