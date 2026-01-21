@@ -1,14 +1,13 @@
 <!-- <app-home></app-home> -->
+<!-- <app-home></app-home> -->
 <app-top-banner></app-top-banner>
 
-<!-- <div class="flex min-h-screen"> -->
 <div class="grid grid-cols-[250px_1fr] min-h-screen">
-  <app-nav class="shrink-0"></app-nav>
+  <!-- STATIC SIDEBAR -->
+  <app-nav class="shadow-[4px_0_20px_#D075F259]"></app-nav>
 
-  <!-- Main content takes remaining space -->
-
-  <!-- <div class="flex-1 overflow-auto"> -->
+  <!-- PAGE CONTENT (browser scrolls) -->
   <div class="min-h-screen">
-    <router-outlet />
+    <router-outlet></router-outlet>
   </div>
 </div>

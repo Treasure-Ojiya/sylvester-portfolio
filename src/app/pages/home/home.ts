@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 import { register } from 'swiper/element/bundle';
 import { Swiper } from 'swiper/types';
 import { About } from '../about/about';
+import { Contact } from '../contact/contact';
 
 register();
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule, About],
+  imports: [CommonModule, About, Contact],
   templateUrl: './home.html',
   styleUrls: ['./home.css'],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

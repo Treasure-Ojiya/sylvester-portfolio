@@ -6,3 +6,6 @@ Accent Highlight	#007AFF	Button highlights (similar to Adobe app blues)
 Light Border/Divider	#3A3A3D	Separators
 adobe purple light   #B9A0D2
 adobe pueple dark    #B89FD5
+
+#1C0128
+#D075F2
